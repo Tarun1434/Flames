@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.flames_background {
+    background-image: url("https://res.cloudinary.com/dsnjnciud/image/upload/v1692982544/08-01_j9bwoe.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.flames_section {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    transition: all.3s ease-in;
+    color: yellow;
+    box-shadow: 0px 0px 10px 5px;
+    margin-top: 100vh;
+    margin: 20px;
+
+}
+
+.heading_flames {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.paragraph_flames {
+    color: #eeece6;
+}
+
+.couples_name {
+    border-color: transparent;
+    border-bottom: 3px ridge;
+    background-color: transparent;
+    color: #FBFFFF;
+}
+
+.couples_name:hover {
+    font-weight: bold;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: white;
+}
+
+.flames_button {
+    background-color: #FFF44F;
+    width: 100px;
+    border-color: #FFF44F;
+    border-radius: 8px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: red;
+}
+
+.flames_button:hover {
+    background-color: transparent;
+    color: yellow;
+    border-color: yellow;
+    box-shadow: 0px 0px 10px 5px;
+}
+
+.last_output {
+    background-color: transparent;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
